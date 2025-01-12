@@ -1,0 +1,27 @@
+{
+  "name": "raddbg-breakpoint-sync",
+  "displayName": "Raddbg Breakpoint Sync",
+  "description": "Sync breakpoints from VS Code to the RAD Debugger via its --ipc interface.",
+  "version": "1.0.0",
+  "publisher": "enfyy",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "raddbg-breakpoint-sync.syncBreakpoints",
+        "title": "Toggle Breakpoint Sync",
+        "category": "Raddbg"
+      }
+    ]
+  },
+  "categories": [
+    "Debuggers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enfyy/raddbg-breakpoint-sync-vs-code.git"
+  }
+}
