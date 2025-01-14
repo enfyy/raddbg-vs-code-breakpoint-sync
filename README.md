@@ -6,7 +6,7 @@ Uses the --ipc command line interface of raddbg and sends a "toggle_breakpoint" 
 ![showcase](gif.gif)
 
 ## Usage
-- The RAD debugger needs to be running for this to work
+- The RAD debugger needs to be opened for this to work
 - Make sure to enable the extension by using the "Raddbg: Toggle Breakpoint Sync" command 
 
 ## Install
