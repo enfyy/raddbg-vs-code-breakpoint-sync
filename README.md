@@ -5,6 +5,10 @@ Uses the --ipc command line interface of raddbg and sends a "toggle_breakpoint" 
 
 ![showcase](gif.gif)
 
+## Usage
+- The RAD debugger needs to be running for this to work
+- Make sure to enable the extension by using the "Raddbg: Toggle Breakpoint Sync" command 
+
 ## Install
 - Download the .vsix from the release section
 - go to the extensions tab in vs code
